@@ -19,6 +19,7 @@
     [super viewDidLoad];
     [self performSelector:@selector(hideSlider) withObject:nil afterDelay:5];
 }
+
 - (IBAction)onCrunchData:(id)sender {
     //[self performSelectorOnMainThread:@selector(doCrunchData) withObject:nil waitUntilDone:true];
     //[self performSelectorInBackground:@selector(doCrunchData) withObject:nil];

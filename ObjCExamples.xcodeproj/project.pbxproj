@@ -17,6 +17,8 @@
 		A69FC0FC1B6DD4FA00431B1D /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FC0F61B6DD4FA00431B1D /* BootLogic.m */; };
 		A69FC0FD1B6DD4FA00431B1D /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FC0F81B6DD4FA00431B1D /* ConsoleScreen.m */; };
 		A69FC0FE1B6DD4FA00431B1D /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FC0FA1B6DD4FA00431B1D /* MainScreen.m */; };
+		A6DCD9A51B775226007EC157 /* DemoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DCD9A31B775226007EC157 /* DemoSlider.m */; };
+		A6DCD9A61B775226007EC157 /* DemoSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DCD9A41B775226007EC157 /* DemoSlider.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,9 @@
 		A69FC0F81B6DD4FA00431B1D /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
 		A69FC0F91B6DD4FA00431B1D /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
 		A69FC0FA1B6DD4FA00431B1D /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		A6DCD9A21B775226007EC157 /* DemoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSlider.h; sourceTree = "<group>"; };
+		A6DCD9A31B775226007EC157 /* DemoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSlider.m; sourceTree = "<group>"; };
+		A6DCD9A41B775226007EC157 /* DemoSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSlider.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,9 @@
 				A69547C41B6E3A5700B519BF /* DemoSelector.h */,
 				A69547C51B6E3A5700B519BF /* DemoSelector.m */,
 				A69547C61B6E3A5700B519BF /* DemoSelector.xib */,
+				A6DCD9A21B775226007EC157 /* DemoSlider.h */,
+				A6DCD9A31B775226007EC157 /* DemoSlider.m */,
+				A6DCD9A41B775226007EC157 /* DemoSlider.xib */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -175,6 +183,7 @@
 				A69FC0DD1B6DD44F00431B1D /* LaunchScreen.xib in Resources */,
 				A69547C81B6E3A5700B519BF /* DemoSelector.xib in Resources */,
 				A69FC0DA1B6DD44F00431B1D /* Images.xcassets in Resources */,
+				A6DCD9A61B775226007EC157 /* DemoSlider.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +201,7 @@
 				A69547BB1B6E0B1900B519BF /* DemoFunction.m in Sources */,
 				A69547C71B6E3A5700B519BF /* DemoSelector.m in Sources */,
 				A69FC0CF1B6DD44F00431B1D /* main.m in Sources */,
+				A6DCD9A51B775226007EC157 /* DemoSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

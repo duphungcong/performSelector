@@ -17,7 +17,8 @@
     //--------- From this line, please customize your menu data -----------
     NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
                                     @{TITLE: @"Function", CLASS: @"DemoFunction"},
-                                    @{TITLE: @"Selector", CLASS: @"DemoSelector"}
+                                    @{TITLE: @"Selector", CLASS: @"DemoSelector"},
+                                    @{TITLE: @"UISlider", CLASS: @"DemoSlider"}
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Array", CLASS: @"InterB"},
